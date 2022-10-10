@@ -5,11 +5,11 @@
   "homepage": "https://www.tenergyinnovation.co.th",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tenergyinnovation/tiny32_Schneider_PM2200"
+    "url": "https://github.com/tenergyinnovation/tiny32_Schneider_PM2XXX"
   },
   "version": "0.0.0",
   "authors": {
-    "name": "tiny32_Schneider_PM2200",
+    "name": "tiny32_Schneider_PM2XXX",
     "url": "https://github.com/tenergyinnovation/"
   },
   "frameworks": "arduino",
