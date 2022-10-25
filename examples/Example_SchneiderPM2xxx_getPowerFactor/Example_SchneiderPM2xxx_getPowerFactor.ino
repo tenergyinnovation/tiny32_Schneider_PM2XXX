@@ -30,22 +30,22 @@ void loop()
 {
   // PowerFactor A
   powerfactor = mcu.SchneiderPM2xxx_PowerFactorA(id);
-  Serial.printf("PowerFactor A => %.1f \r\n", powerfactor);
+  Serial.printf("PowerFactor A => %.3f \r\n", powerfactor);
   vTaskDelay(1000);
 
   // PowerFactor B
   powerfactor = mcu.SchneiderPM2xxx_PowerFactorB(id);
-  Serial.printf("PowerFactor B => %.1f \r\n", powerfactor);
+  Serial.printf("PowerFactor B => %.3f \r\n", powerfactor);
   vTaskDelay(1000);
 
   // PowerFactor C
   powerfactor = mcu.SchneiderPM2xxx_PowerFactorC(id);
-  Serial.printf("PowerFactor C => %.1f \r\n", powerfactor);
+  Serial.printf("PowerFactor C => %.3f \r\n", powerfactor);
   vTaskDelay(1000);
 
   // PowerFactor Total
   powerfactor = mcu.SchneiderPM2xxx_PowerFactorTotal(id);
-  Serial.printf("PowerFactor Total => %.1f \r\n", powerfactor);
+  Serial.printf("PowerFactor Total => %.3f \r\n", powerfactor);
   vTaskDelay(1000);
 
 

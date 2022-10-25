@@ -30,52 +30,52 @@ void loop()
 {
   // Current A
   current = mcu.SchneiderPM2xxx_CurrentA(id);
-  Serial.printf("Current A => %.1f A\r\n", current);
+  Serial.printf("Current A => %.3f A\r\n", current);
   vTaskDelay(1000);
 
   // Current B
   current = mcu.SchneiderPM2xxx_CurrentB(id);
-  Serial.printf("Current B => %.1f A\r\n", current);
+  Serial.printf("Current B => %.3f A\r\n", current);
   vTaskDelay(1000);
 
   // Current C
   current = mcu.SchneiderPM2xxx_CurrentC(id);
-  Serial.printf("Current C => %.1f A\r\n", current);
+  Serial.printf("Current C => %.3f A\r\n", current);
   vTaskDelay(1000);
 
   // Current N
   current = mcu.SchneiderPM2xxx_CurrentN(id);
-  Serial.printf("Current N => %.1f A\r\n", current);
+  Serial.printf("Current N => %.3f A\r\n", current);
   vTaskDelay(1000);
 
   // Current G
   current = mcu.SchneiderPM2xxx_CurrentG(id);
-  Serial.printf("Current G => %.1f A\r\n", current);
+  Serial.printf("Current G => %.3f A\r\n", current);
   vTaskDelay(1000);
 
   // Current Avg
   current = mcu.SchneiderPM2xxx_CurrentAvg(id);
-  Serial.printf("Current Avg => %.1f A\r\n", current);
+  Serial.printf("Current Avg => %.3f A\r\n", current);
   vTaskDelay(1000);
 
   // Current Unbalance A
   current = mcu.SchneiderPM2xxx_CurrentUnblanceA(id);
-  Serial.printf("Current Unbalance A => %.1f A\r\n", current);
+  Serial.printf("Current Unbalance A => %.3f A\r\n", current);
   vTaskDelay(1000);
 
   // Current Unbalance B
   current = mcu.SchneiderPM2xxx_CurrentUnblanceB(id);
-  Serial.printf("Current Unbalance B => %.1f A\r\n", current);
+  Serial.printf("Current Unbalance B => %.3f A\r\n", current);
   vTaskDelay(1000);
 
   // Current Unbalance C
   current = mcu.SchneiderPM2xxx_CurrentUnblanceC(id);
-  Serial.printf("Current Unbalance C => %.1f A\r\n", current);
+  Serial.printf("Current Unbalance C => %.3f A\r\n", current);
   vTaskDelay(1000);
 
   // Current Unbalance Worst
   current = mcu.SchneiderPM2xxx_CurrentUnblanceWorst(id);
-  Serial.printf("Current Unbalance Worst => %.1f A\r\n", current);
+  Serial.printf("Current Unbalance Worst => %.3f A\r\n", current);
   vTaskDelay(1000);
 
   Serial.println("-----------------------------------------\r\n\r\n");

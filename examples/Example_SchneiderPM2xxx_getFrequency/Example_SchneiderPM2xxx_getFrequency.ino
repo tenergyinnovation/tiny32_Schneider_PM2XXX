@@ -30,7 +30,7 @@ void loop()
 {
   // PowerFactor A
   freq = mcu.SchneiderPM2xxx_Freq(id);
-  Serial.printf("Frequency  => %.1f (Hz)\r\n", freq);
+  Serial.printf("Frequency  => %.3f (Hz)\r\n", freq);
   vTaskDelay(1000);
 
 

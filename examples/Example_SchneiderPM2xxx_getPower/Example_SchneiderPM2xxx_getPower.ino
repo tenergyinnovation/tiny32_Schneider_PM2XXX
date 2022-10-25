@@ -30,62 +30,62 @@ void loop()
 {
   // Active Power A
   power = mcu.SchneiderPM2xxx_ActivePowerA(id);
-  Serial.printf("Active Power A => %.1f kW\r\n", power);
+  Serial.printf("Active Power A => %.3f kW\r\n", power);
   vTaskDelay(1000);
 
   // Active Power B
   power = mcu.SchneiderPM2xxx_ActivePowerB(id);
-  Serial.printf("Active Power B => %.1f kW\r\n", power);
+  Serial.printf("Active Power B => %.3f kW\r\n", power);
   vTaskDelay(1000);
 
   // Active Power C
   power = mcu.SchneiderPM2xxx_ActivePowerC(id);
-  Serial.printf("Active Power C => %.1f kW\r\n", power);
+  Serial.printf("Active Power C => %.3f kW\r\n", power);
   vTaskDelay(1000);
 
   // Active Power Total
   power = mcu.SchneiderPM2xxx_ActivePowerTotal(id);
-  Serial.printf("Active Power Total => %.1f kW\r\n", power);
+  Serial.printf("Active Power Total => %.3f kW\r\n", power);
   vTaskDelay(1000);
 
   // Reactive Power A
   power = mcu.SchneiderPM2xxx_ReactivePowerA(id);
-  Serial.printf("Reactive Power A => %.1f kVAR\r\n", power);
+  Serial.printf("Reactive Power A => %.3f kVAR\r\n", power);
   vTaskDelay(1000);
 
   // Reactive Power B
   power = mcu.SchneiderPM2xxx_ReactivePowerB(id);
-  Serial.printf("Reactive Power B => %.1f kVAR\r\n", power);
+  Serial.printf("Reactive Power B => %.3f kVAR\r\n", power);
   vTaskDelay(1000);
 
   // Reactive Power C
   power = mcu.SchneiderPM2xxx_ReactivePowerC(id);
-  Serial.printf("Reactive Power C => %.1f kVAR\r\n", power);
+  Serial.printf("Reactive Power C => %.3f kVAR\r\n", power);
   vTaskDelay(1000);
 
   // Reactive Power Total
   power = mcu.SchneiderPM2xxx_ReactivePowerTotal(id);
-  Serial.printf("Reactive Power Total => %.1f kVAR\r\n", power);
+  Serial.printf("Reactive Power Total => %.3f kVAR\r\n", power);
   vTaskDelay(1000);
 
     // Apparent Power A
   power = mcu.SchneiderPM2xxx_ApparentPowerA(id);
-  Serial.printf("Apparent Power A => %.1f kVA\r\n", power);
+  Serial.printf("Apparent Power A => %.3f kVA\r\n", power);
   vTaskDelay(1000);
 
   // Apparent Power B
   power = mcu.SchneiderPM2xxx_ApparentPowerB(id);
-  Serial.printf("Apparent Power B => %.1f kVA\r\n", power);
+  Serial.printf("Apparent Power B => %.3f kVA\r\n", power);
   vTaskDelay(1000);
 
   // Apparent Power C
   power = mcu.SchneiderPM2xxx_ApparentPowerC(id);
-  Serial.printf("Apparent Power C => %.1f kVA\r\n", power);
+  Serial.printf("Apparent Power C => %.3f kVA\r\n", power);
   vTaskDelay(1000);
 
   // Apparent Power Total
   power = mcu.SchneiderPM2xxx_ApparentPowerTotal(id);
-  Serial.printf("Apparent Power Total => %.1f kVA\r\n", power);
+  Serial.printf("Apparent Power Total => %.3f kVA\r\n", power);
   vTaskDelay(1000);
 
 
